@@ -1,0 +1,183 @@
+/* Reset default margin and padding */
+*{
+  margin:0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.wrapper{
+  width: 900px;
+  height: 900px;
+  background-color: white;
+  margin: auto;
+  flex-wrap: wrap;
+
+}
+
+
+.container {
+  width:100%;
+  background-color: rgb(248, 248, 77);
+  display: flex; /* Use Flexbox */
+  justify-content:flex-start;
+  align-items: center; /* Vertically center content */
+  flex-wrap: wrap;
+  display: flex;
+  padding: 3%;
+  
+}
+
+.logo {
+  margin-right: 90px; 
+}
+
+/* Style the navigation links
+/* /* .nav-links ul {
+  list-style: none; /* Remove list bullets */
+  /* display: flex; Use Flexbox for the links
+} */ */
+
+/* .nav-links li {
+  margin-right: 40px; Add spacing between links
+} */
+
+
+img{
+  width: auto;
+  height:auto;
+  display: flex;
+
+}
+/* .search{
+width: 100px;
+height: 20px;
+
+} */
+
+
+
+
+.nav-links a {
+  text-decoration: none; /* Remove underlines from links */
+  color: white; /*Set link color */
+  text-align: center;
+  display: flex;
+
+
+}
+/* about us, services and conatcus */
+
+nav{
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:left;
+  background-color: rgb(243, 243, 243);
+  height: 80px;
+  padding-top: 3%;
+  display: flex;
+
+  
+}
+
+nav a{
+    margin-left: 20%;
+    font-size: larger;
+    text-align: center;
+    border: wrgb(39, 146, 150);
+    display: flex;
+
+}
+.login{ 
+margin-left: 250px;
+width:30px;
+text-align: center;
+/* color: rgb(241, 120, 14); */
+
+}
+
+.basket{
+margin-left: 60px;
+margin-bottom: 3px;
+width: 30px; ;
+text-align: center;
+}
+.wallet{
+margin-left: 60px;
+width: 30px;
+text-align: center;
+}
+
+
+.Banner{
+background-color: rgb(39, 146, 150);
+/* width: 100%;
+height: 20%; */
+text-align: center;
+font-size: 20px;
+padding: 1%;
+}
+
+
+
+summary{
+  text-align: justify;
+}
+
+
+
+
+p{
+font-weight: bold;
+color: white;
+font-size: xx-large;
+text-align: center;
+}
+
+
+.imagess{
+  width: 100%;
+  height: 400px;
+  background-color: rgb(243, 243, 243);
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+  
+}
+
+
+p{
+font-size: large;
+text-align: center;
+
+}
+.footer{
+width: 100%;
+background-color: rgb(224, 214, 214);
+display: flex;
+flex-wrap: wrap ;
+  justify-content: space-around;
+  /* padding-top: 30px; */
+  align-items: center;
+height: 70px;
+
+}
+
+h1,h2,h3{
+text-align: center;
+padding-top: 20px;
+font-size: small;
+}
+
+
+@media screen and (max-width: 800px) {
+  .wrapper, .container, .nav-link {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+}
